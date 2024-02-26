@@ -1,0 +1,7 @@
+notes:
+watch bootstap tutorial on mobile compatibility
+make all photos responsive and mobile friendly
+	:homepage, socialmedias, aboutme - make photo responsive
+	:abouthermorepics - use bootstrap if have time
+	:fix footer using bootstrap
+	
