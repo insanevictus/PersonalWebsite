@@ -1,0 +1,24 @@
+img {
+    width: 100%; height: auto;
+}
+
+.abouther-button {
+    background-color: #F8C8DC    ;
+    border: 2px #042944 solid;
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+}
+
+.abouther-button a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    height: 100%; /* Make the anchor element take the full height of the button */
+}
+
+.abouther-button:hover {
+    background-color: #76a4e0;
+}
