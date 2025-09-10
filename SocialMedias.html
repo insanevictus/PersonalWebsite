@@ -29,6 +29,25 @@
                 width: 50px;
                 height: 50px;
             }
+            .button {
+                border: 2px #042944 solid;
+                margin: 20px;
+                height: 50px;
+                display: flex;
+                justify-content: center; /* Center the text horizontally */
+                align-items: center; /* Center the text vertically */
+            }
+            
+            .button a {
+                text-decoration: none;
+                padding: 20px;
+                display: inline-block;
+                height: 100%; /* Make the anchor element take the full height of the button */
+            }
+            
+            .button:hover {
+                background-color: #76a4e0;
+            }
         </style>
     </head>
     
@@ -81,8 +100,8 @@
                             <h1 style="text-align: center;">
                                 Check out this websites I made!
                             </h1>
-                        <a href="https://insanevictus.github.io/HumComProject/Homepage.html">Online Shop (Not Completed)</a>
-                        <a href="https://github.com/insanevictus">My github page</a>
+                        <a class="button" href="https://insanevictus.github.io/HumComProject/Homepage.html">Online Shop (Not Completed)</a>
+                        <a class="button" href="https://github.com/insanevictus">My github page</a>
                         </div>
                     </div>
                 </div>
@@ -113,6 +132,7 @@
         </div>
     </body>
 </html>
+
 
 
 
