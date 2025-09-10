@@ -1,5 +1,5 @@
 img {
-    width: 100%; height: 325px;
+    width: 100%; height: auto;
 }
 
 .abouther-button {
@@ -22,4 +22,5 @@ img {
 .abouther-button:hover {
     background-color: #76a4e0;
 }
+
 
